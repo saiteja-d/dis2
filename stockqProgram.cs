@@ -28,8 +28,11 @@ namespace Assignment_2
             client1.StockList.AddStock(stockFour);
             client1.StockList.AddStock(stockNine);
 
+<<<<<<< HEAD
             //client port--
 
+=======
+>>>>>>> aa8554745b0444e6a856b541cd3aea1fb69771de
             Console.WriteLine("**************************Client-1 Portfolio*****************************************");
             client1.StockList.Print();
             Console.WriteLine("Number of shares :" + client1.StockList.Length());
